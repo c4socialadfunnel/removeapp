@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, Image, ActivityIndicator, Alert, SafeAreaView } from 'react-native';
+import { View, Text, StyleSheet, Image, ActivityIndicator, Alert, SafeAreaView, TouchableOpacity } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
 import * as ImagePicker from 'expo-image-picker';
 import { AppButton } from '@/components/ui/AppButton';
