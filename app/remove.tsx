@@ -5,7 +5,7 @@ import * as ImagePicker from 'expo-image-picker';
 import { AppButton } from '@/components/ui/AppButton';
 import { Layout, Typography, Gutters } from '@/constants/Theme';
 import { Colors } from '@/constants/Colors';
-import { UploadCloud } from 'lucide-react-native';
+import { CloudUpload as UploadCloud } from 'lucide-react-native';
 
 export default function RemoveBackgroundScreen() {
   const [image, setImage] = useState<string | null>(null);
